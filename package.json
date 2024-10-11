@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "HOST=0.0.0.0 nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.13.0",
+    "vue": "^3.3.4",
+    "pinia": "^2.1.7",
+    "@pinia/nuxt": "^0.5.1",
+    "chart.js": "^3.9.1",
+    "vue-chartjs": "^4.1.2",
+    "@tensorflow/tfjs": "^4.17.0",
+    "@tensorflow-models/mobilenet": "^2.1.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.11.4"
+  }
+}
